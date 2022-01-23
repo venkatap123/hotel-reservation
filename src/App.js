@@ -1,9 +1,29 @@
 import logo from './logo.svg';
-//import './App.css';
+import './App.css';
+
+import Home from './pages/Home';
+import Error from './pages/Error';
+import SingleRoom from './pages/SingleRoom';
+import Rooms from './pages/Rooms';
+
+import Navbar from './components/Navbar';
+
+import {Route, Router, Routes} from 'react-router-dom'
+
+
 
 function App() {
   return (
-    <>Begining of the legendary hotel website. By akhil</>
+    <>
+    <Navbar />
+    <Routes>
+    <Route path="/" element={<Home />} />
+    <Route path="home" element={<Home />} />
+    <Route path="/rooms" element={<Rooms />} />
+    <Route exact path="/rooms/:type" element={<SingleRoom />} />
+    <Route path="*" element={<Error />} />
+    </Routes>
+    </>
   );
 }
 

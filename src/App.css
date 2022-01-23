@@ -512,4 +512,14 @@ h6 {
     max-width: 1170px;
   }
 }
+
+.footer-text{
+  text-align: center;
+  font-weight: bold;
+  font-family: "Google Sans Regular";
+}
+
+.footer-div{
+  margin-top: 2rem;
+}
 /* end of rooms fitler*/
