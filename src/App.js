@@ -3,7 +3,7 @@ import logo from './logo.svg';
 
 function App() {
   return (
-    <>Begining of the legendary website. By akhil</>
+    <>Begining of the legendary hotel website. By akhil</>
   );
 }
 
