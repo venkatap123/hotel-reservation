@@ -27,13 +27,14 @@ export default class Services extends Component {
         title: "Free Shuttle",
         info:
           "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
-      },
-      {
-        icon: <FaHiking />,
-        title: "Endless Hiking",
-        info:
-          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
       }
+      // ,
+      // {
+      //   icon: <FaHiking />,
+      //   title: "Endless Hiking",
+      //   info:
+      //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias molestias eius libero?"
+      // }
       
     ]
   };
