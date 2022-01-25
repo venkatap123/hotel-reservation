@@ -6,6 +6,8 @@ import {Link} from 'react-router-dom';
 import FeaturedRooms from '../components/FeaturedRooms';
 import Services from '../components/Services';
 
+import StyledHero from '../components/StyledHero';
+
 export default function Home() {
   return (
   <>
