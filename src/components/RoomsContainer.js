@@ -13,7 +13,7 @@ export default function RoomContainer() {
         }
         return (
           <>
-            <RoomsFilter rooms={rooms} />
+            {/* <RoomsFilter rooms={rooms} /> */}
             <RoomsList rooms={sortedRooms} setRoom={setRoom} />
           </>
         );
